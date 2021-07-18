@@ -1,0 +1,178 @@
+html, body {
+	width: 100vw;
+	height: 100vh;
+}
+html {
+	scroll-behavior: smooth;
+	}
+body {
+	background-color: #000000;
+}
+
+main {
+	max-width: 100vw;
+}
+
+header {
+
+	background-color: #000000;
+	box-sizing: border-box;
+	width: 100vw;
+	height: 115px;
+	position:fixed;
+	top:0;
+	left:0;
+	margin-left: 15px;
+}
+
+header p {
+	color: teal;
+	padding: 20px;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+
+	text-transform: uppercase;
+	color: #f0e225;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+
+}
+
+nav a:hover{
+	color: #5b94eb;
+	text-decoration: underline;
+}
+
+.logo-black {
+	width: 50%;
+	height: 50%;
+}
+
+.section-container {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.background-section-one {
+	background-image: url(../assets/bg3.jpeg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+
+.background-section-two {
+	background-image: url(../assets/bg1.jpg);
+	background-attachment: fixed;
+	background-attachment: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.card-container {
+	background:#ffffff;
+	border-radius: 25px;
+	padding: 25px;
+	width: 500px;
+	max-width: 500px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.texto-black-friday-container {
+	background: rgb(0, 0, 0);
+	margin-right: 50px;
+	margin-left: auto;
+	padding: 25px;
+	text-align: center;
+	font-family: 'Tourney', cursive;
+	font-size: 45px;
+}
+
+.texto-black-friday {
+	text-decoration: lawngreen;
+	color: rgb(255, 255, 255);
+
+}
+.cadastre {
+	font-size: 55px;
+	color: steelblue;
+	margin-top: 10px;
+}
+ 
+.container-principal {
+	position: flex;
+	flex-direction: column;
+}
+
+input {
+	font-family: 'Roboto', cursive;
+	font-size: 20px;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 12px;
+	background: #000000;
+	color: #ffffff;
+}
+
+form {
+	display: grid;
+}
+
+form p {
+	text-align: center;
+}
+
+.cadastroButton:hover {
+	text-decoration: underline;
+	color: yellow;
+    transition: all 0.5s;
+
+}
+
+footer {
+
+	text-align: center;
+	background-color: rgb(2, 2, 2);
+	height: 70px;
+	position: relative;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 25px;
+	font-family: 'Roboto', mono;
+}
+
+.paragrafo-footer {
+	-webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  color:  whitesmoke
+}
+
